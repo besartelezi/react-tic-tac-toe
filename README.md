@@ -14,6 +14,11 @@ I still intend to finish the Kahoot/Quiz app, but right now, I'd rather learn ho
 
 I also won't be documenting everything regarding this tic-tact-toe app, since the documentation for is it available on the React website.
 
+## It's rewind time!
+The final part of this assignment is adding a feature that lets you go back and see previous moves.
+I will add this functionality in my free time when I get the chance.
+For now, I think this is a sufficient exercise that prepared me well to tackle the main assignment.
+
 ## Things I learned
 ### State
 ````
@@ -69,4 +74,9 @@ Once user is done with quiz, check all the answers.
 Actually, user doesn't even need to be done with quiz, just call a the function with the code below everytime the user clicks on an answer.
 If the hasChosen === true && answer === correctAnswer => userPoints++
 ````
+
+## Final thoughts
+This exercise helped me understand React a lot better, while still not answering *all* my questions.
+I understand the folder structure a lot better, what makes React so special, the difference between functional and class components, as well as giving me a peak to different kinds of components I had never even heard of before.
+All in all, this was time well spent.
 
