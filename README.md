@@ -14,6 +14,14 @@ I still intend to finish the Kahoot/Quiz app, but right now, I'd rather learn ho
 
 I also won't be documenting everything regarding this tic-tact-toe app, since the documentation for is it available on the React website.
 
+## Things I learned
+````
+As a next step, we want the Square component to “remember” that it got clicked, and fill it with an “X” mark. 
+To “remember” things, components use state.
+````
+This helped me understand state a bit better.
+It also made me that states are more helpful and important than I previously thoughts.
+
 ## Subjects I still don't quite understand:
 * Passing props
   * What props are exactly
@@ -23,5 +31,7 @@ I also won't be documenting everything regarding this tic-tact-toe app, since th
 ````
 <button className="answer" onClick={function () {'code that sets the hasChosen value of this answer to true }}>
 Once user is done with quiz, check all the answers.
+Actually, user doesn't even need to be done with quiz, just call a the function with the code below everytime the user clicks on an answer.
 If the hasChosen === true && answer === correctAnswer => userPoints++
 ````
+
