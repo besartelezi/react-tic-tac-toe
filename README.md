@@ -30,10 +30,37 @@ this keeps the child components in sync with each other and with the parent comp
 
 I still don't understand 100% how and when to use this, but I do understand the advantages to it and what it theoretically means.
 
+### Immutability
+Apparently, there are two general approaches to changing data.
+The first is to *mutate* the data, you **directly** change the data's values.
+The second one is to replace the data with a new copy, that has the desired changes made to it.
+
+By not mutating the data, we gain several benefits that will be described below.
+
+#### Complex Features Become Simple
+Some complex features become much easier to implement.
+An example given to us in this tutorial is the "time travel" feature.
+You can jump back to some previous moves you made.
+This is possible because you didn't change the original data.
+
+Time travel is a common functionality of many apps, so it's worth 
+
+#### Detecting Changes
+Since we're cloning the data, and modifying the cloned data, we can still use the original data to compare the changes.
+
+#### Determining When to Re-Render in React
+Now we're on to the main benefit of immutability.
+It helps you build *pure components* in React.
+With immutable data, you can easily determine if changes have been made, through this, you can also easily determine when a component requires re-rendering.
+
 ## Subjects I still don't quite understand:
 * Passing props
   * What props are exactly
   * (I know they're similar to variables)
+* Controlled components
+  * Something I should look into, it was only mentioned in the guide.
+* Pure components
+  * [Read this](https://reactjs.org/docs/optimizing-performance.html#examples)
 
 ## Ideas I got on how to do the KahooQuiz App
 ````
