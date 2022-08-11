@@ -13,3 +13,15 @@ If finishing this tic-tac-toe game will help me understand React on a more **FUN
 I still intend to finish the Kahoot/Quiz app, but right now, I'd rather learn how to create something properly with React than to finish the app without really understanding how it works.
 
 I also won't be documenting everything regarding this tic-tact-toe app, since the documentation for is it available on the React website.
+
+## Subjects I still don't quite understand:
+* Passing props
+  * What props are exactly
+  * (I know they're similar to variables)
+
+## Ideas I got on how to do the KahooQuiz App
+````
+<button className="answer" onClick={function () {'code that sets the hasChosen value of this answer to true }}>
+Once user is done with quiz, check all the answers.
+If the hasChosen === true && answer === correctAnswer => userPoints++
+````
