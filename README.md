@@ -15,12 +15,20 @@ I still intend to finish the Kahoot/Quiz app, but right now, I'd rather learn ho
 I also won't be documenting everything regarding this tic-tact-toe app, since the documentation for is it available on the React website.
 
 ## Things I learned
+### State
 ````
 As a next step, we want the Square component to “remember” that it got clicked, and fill it with an “X” mark. 
 To “remember” things, components use state.
 ````
 This helped me understand state a bit better.
 It also made me that states are more helpful and important than I previously thoughts.
+
+### Parent and Child components
+"To collect data from multiple children, or to have two child components communicate with each other, you need to declare the shared state in their parent component instead.
+The parent component can pass the state back down to the children by using props;
+this keeps the child components in sync with each other and with the parent component."
+
+I still don't understand 100% how and when to use this, but I do understand the advantages to it and what it theoretically means.
 
 ## Subjects I still don't quite understand:
 * Passing props
